@@ -10,8 +10,11 @@ return (
     <>
     <Header/>
     <div className="homepage">
-      <h1>MEDICAL LAB COURSES LIST </h1>
-      <p>Do you want to be expert in Medical Laboratory ? pick up free course now.</p>
+    <div className="intro-text">
+    <h1 className="header1">MEDICAL LAB QMS </h1>
+    <p >Do you want to be expert in Medical Laboratory ? pick up free course now.</p>                                   
+    </div>
+      
       <div className="cardsContainer">
        <CourseCard
         src="https://picsum.photos/300/200"

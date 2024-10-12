@@ -7,6 +7,7 @@ import {
   Nav,
   NavItem,
   NavLink,
+  
 } from 'reactstrap';
 
 function Header(props) {
@@ -17,19 +18,22 @@ function Header(props) {
   return (
     <div className='Header'>
       <Navbar color="faded" light expand='lg'>
-        <NavbarBrand href="/" className="me-auto">
-          reactstrap
+        <NavbarBrand href="/" className="me-auto logo">
+          LabQMS
         </NavbarBrand>
         <NavbarToggler onClick={toggleNavbar} className="me-2" />
         <Collapse isOpen={!collapsed} navbar>
-          <Nav navbar>
+          <Nav navbar className='navbar'>
             <NavItem>
-              <NavLink href="/components/">Components</NavLink>
+              <NavLink className='navlink' href="#">Free Course</NavLink>
             </NavItem>
             <NavItem>
-              <NavLink href="https://github.com/reactstrap/reactstrap">
-                GitHub
+              <NavLink className='navlink' href="#">
+                Books
               </NavLink>
+            </NavItem>
+            <NavItem className='search-container'>       
+              <input type="text" placeholder="Search" className="mr-sm-2 search" />
             </NavItem>
           </Nav>
         </Collapse>
