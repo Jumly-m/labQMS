@@ -1,6 +1,7 @@
 import Header from "./components/Header"
 import Footer from "./components/Footer"
 import CourseCard from "./components/Card"
+import { Analytics } from "@vercel/analytics/react"
 
 
 
@@ -40,6 +41,7 @@ return (
       </div>
     </div>
     <Footer/>
+    <Analytics />
   
     </>
   )
