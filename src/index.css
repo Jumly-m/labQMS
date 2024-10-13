@@ -41,7 +41,6 @@ body, html {
 }
 
 .homepage {
-  border: 2px solid red;
   margin-top: 100px; /* Adds spacing to push content below the fixed header */
   display: flex;
   align-items: center;
@@ -79,9 +78,34 @@ margin-top: 30px;
     width:95% !important;          
      margin-left:7px  !important;
   }
+  .footer-links {
+    list-style: none;
+    padding: 0;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr;
+    gap: 2px;
+    text-align: left;
+  }
+  
+  .footer-links li {
+    display: inline;
+    margin: 0 15px;
+  }
+  
+  .footer-links a {
+    color: white;
+    text-decoration: none;
+  }
+  
+  .footer-links a:hover {
+    text-decoration: underline;
+  }
+  
 }
 .header1{
   margin-bottom: 8px;
+  color: #3e5480;
  
 }
 
@@ -95,6 +119,7 @@ margin-top: 30px;
 .intro-text p{
   text-align: center;
   margin-top: 10px;
+  color: #3e5480;
 }
 
 .card {
@@ -121,7 +146,7 @@ margin-top: 30px;
 }
 .courseTitle{
   margin-bottom: 5px;
-  color: gray !important;
+  color: #3e5480 !important;
   margin-bottom: 10px !important;
   width: 100%;
 }
@@ -135,4 +160,40 @@ margin-top: 30px;
   border:none !important;
   text-decoration: none !important;
 }
+
+
+  /*   footer  */
+  .footer {
+    background-color: #3e5480;
+    color: white;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  .footer-content {
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  
+  .footer-links {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .footer-links li {
+    display: inline;
+    margin: 0 15px;
+  }
+  
+  .footer-links a {
+    color: white;
+    text-decoration: none;
+  }
+  
+  .footer-links a:hover {
+    text-decoration: underline;
+  }
+  
+ /*   footer  ends here */
+
 
