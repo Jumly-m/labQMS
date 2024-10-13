@@ -8,7 +8,7 @@ const CourseCard = (props) => {
       <CardBody className='cardBody'>
         <CardTitle className='courseTitle' tag="h4"><b>{props.title}</b></CardTitle>
         <CardSubtitle className="mb-2 text-muted topic" tag="h6">
-        <em>Topic :{props.topic}</em> 
+        <em><b>Topic :{props.topic}</b></em> 
         </CardSubtitle>
         <CardText>
          {props.cardText}

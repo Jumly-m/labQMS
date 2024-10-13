@@ -34,7 +34,16 @@ const data = [
     subtitle: "Learn the latest methods in hematology diagnostics",
     description: "This course covers advanced hematology methods, including diagnostics and blood transfusion techniques.",
     link: "https://example.com/hematology-course"
-  }
+  },
+  {
+    id: 5,
+    topic: "Hematology",
+    image: "lab2.png",
+    title: "Advanced Hematology Techniques",
+    subtitle: "Learn the latest methods in hematology diagnostics",
+    description: "This course covers advanced hematology methods, including diagnostics and blood transfusion techniques.",
+    link: "https://example.com/hematology-course"
+  },
 ];
 
 export default data;

@@ -11,7 +11,7 @@ function App() {
       <div className="homepage">
         <div className="intro-text">
           <h1 className="header1">MEDICAL LAB QMS</h1>
-          <p>Do you want to be an expert in Medical Laboratory? Pick up a free course now.</p>
+          <p><em>Do you want to be an expert in Medical Laboratory? Pick up a free course now.</em></p>
         </div>
 
         {/* Mapping through the data array and passing course details to CourseCard */}
