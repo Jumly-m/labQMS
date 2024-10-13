@@ -101,8 +101,15 @@ margin-top: 30px;
   .footer-links a:hover {
     text-decoration: underline;
   }
+  .footer{
+  text-align: center;
+  }
   
 }
+
+
+
+
 .header1{
   margin-bottom: 8px;
   color: #3e5480;
