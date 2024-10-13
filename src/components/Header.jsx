@@ -32,6 +32,11 @@ function Header(props) {
                 Books
               </NavLink>
             </NavItem>
+            <NavItem>
+              <NavLink className='navlink' href="#">
+                Templates
+              </NavLink>
+            </NavItem>
             <NavItem className='search-container'>       
               <input type="text" placeholder="Search" className="mr-sm-2 search" />
             </NavItem>
