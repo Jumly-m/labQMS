@@ -1,53 +1,38 @@
-import Header from "./components/Header"
-import Footer from "./components/Footer"
-import CourseCard from "./components/Card"
-import { Analytics } from "@vercel/analytics/react"
-
-
+import Header from "./components/Header";
+import Footer from "./components/Footer";
+import CourseCard from "./components/Card";
+import { Analytics } from "@vercel/analytics/react";
+import data from './data';
 
 function App() {
-return (
+  return (
     <>
-    <Header/>
-    <div className="homepage">
-    <div className="intro-text">
-    <h1 className="header1">MEDICAL LAB QMS </h1>
-    <p >Do you want to be expert in Medical Laboratory ? pick up free course now.</p>                                   
-    </div>
-      
-      <div className="cardsContainer">
-       <CourseCard
-        src="https://picsum.photos/300/200"
-        cardSubtitle ='Card subtitle'
-        cardText ='Some quick example text to build on the card title and make up the bulk of the card content'
-        buttonText='Take Course'
-        />
-         <CourseCard
-        src="https://picsum.photos/300/200"
-        cardSubtitle ='Card subtitle'
-        cardText ='Some quick example text to build on the card title and make up the bulk of the card content'
-        buttonText='Take Course'
-        />
-       <CourseCard
-        src="https://picsum.photos/300/200"
-        cardSubtitle ='Card subtitle'
-        cardText ='Some quick example text to build on the card title and make up the bulk of the card content'
-        buttonText='Take Course'
-        />
-         <CourseCard
-        src="https://picsum.photos/300/200"
-        cardSubtitle ='Card subtitle'
-        cardText ='Some quick example text to build on the card title and make up the bulk of the card content'
-        buttonText='Take Course'
-        />
+      <Header />
+      <div className="homepage">
+        <div className="intro-text">
+          <h1 className="header1">MEDICAL LAB QMS</h1>
+          <p>Do you want to be an expert in Medical Laboratory? Pick up a free course now.</p>
+        </div>
 
+        {/* Mapping through the data array and passing course details to CourseCard */}
+        <div className="cardsContainer">
+          {data.map((course) => (
+            <CourseCard
+              key={course.id}    
+              title ={course.title}      // Ensures each CourseCard has a unique key
+              src={course.image}        // Image URL for the course
+              topic={course.topic}  // Subtitle of the course
+              cardText={course.description}   // Course description text
+              buttonText="Take Course"  // Static button text
+              link={course.link}        // Link for the course
+            />
+          ))}
+        </div>
       </div>
-    </div>
-    <Footer/>
-    <Analytics />
-  
+      <Footer />
+      <Analytics />
     </>
-  )
+  );
 }
 
-export default App
+export default App;

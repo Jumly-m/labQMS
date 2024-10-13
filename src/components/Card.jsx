@@ -4,16 +4,16 @@ import { Card, CardBody, CardTitle, CardSubtitle, CardText, Button } from 'react
 const CourseCard = (props) => {
   return (
     <Card style={{ width: '18rem' }} className='card'>
-      <img alt="Sample" src={props.src} />
-      <CardBody>
-        <CardTitle tag="h5">Card title</CardTitle>
-        <CardSubtitle className="mb-2 text-muted" tag="h6">
-          {props.cardSubtitle}
+      <img className='cardImage'  alt="Sample" src={props.src} />
+      <CardBody className='cardBody'>
+        <CardTitle className='courseTitle' tag="h4"><b>{props.title}</b></CardTitle>
+        <CardSubtitle className="mb-2 text-muted topic" tag="h6">
+        <em>Topic :{props.topic}</em> 
         </CardSubtitle>
         <CardText>
          {props.cardText}
         </CardText>
-        <Button color='primary' outline = 'True' block='True'>{props.buttonText}</Button>
+        <Button href={props.link} color='primary'className='cardButton' outline = 'True' block='True'>{props.buttonText}</Button>
       </CardBody>
     </Card>
   );
