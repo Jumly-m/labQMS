@@ -15,16 +15,16 @@ const data = [
     title: "Mastering Medical Microbiology",
     subtitle: "Essential microbiology concepts for lab professionals",
     description: "Comprehensive course on medical microbiology for beginners and experienced professionals.",
-    link: "https://example.com/microbiology-course"
+    link: "https://ko-fi.com/labqms/shop"
   },
   {
     id: 3,
-    topic: "Solidity Smart Contracts",
+    topic: "Clinical Research",
     image: "lab1.png",
-    title: "Introduction to Solidity",
-    subtitle: "A beginner's guide to writing Ethereum smart contracts",
-    description: "Learn how to write and deploy your first smart contract using Solidity step by step with examples.",
-    link: "https://example.com/solidity-course"
+    title: "Master clinical research ",
+    subtitle: "A full beginner guide for clinical research",
+    description: "Master clinical research;including principle of ethics for clinical research.",
+    link: "https://ko-fi.com/labqms/shop"
   },
   {
     id: 4,
@@ -33,16 +33,16 @@ const data = [
     title: "Advanced Hematology Techniques",
     subtitle: "Learn the latest methods in hematology diagnostics",
     description: "This course covers advanced hematology methods, including diagnostics and blood transfusion techniques.",
-    link: "https://example.com/hematology-course"
+    link: "https://ko-fi.com/labqms/shop"
   },
   {
     id: 5,
     topic: "Hematology",
-    image: "lab2.png",
+    image: "iqc.png",
     title: "Advanced Hematology Techniques",
     subtitle: "Learn the latest methods in hematology diagnostics",
     description: "This course covers advanced hematology methods, including diagnostics and blood transfusion techniques.",
-    link: "https://example.com/hematology-course"
+    link: "https://ko-fi.com/labqms/shop"
   },
 ];
 
