@@ -3,7 +3,7 @@ import Footer from "./components/Footer";
 import CourseCard from "./components/Card";
 import { Analytics } from "@vercel/analytics/react";
 import data from './data';
-
+import { Button } from "reactstrap";
 function App() {
   return (
     <>
@@ -11,7 +11,12 @@ function App() {
       <div className="homepage">
         <div className="intro-text">
           <h1 className="header1">MEDICAL LAB QMS</h1>
-          <p><em>Do you want to be an expert in Medical Laboratory? Pick up a free course now.</em></p>
+          <p><em>Do you want to be an expert in Medical Laboratory? Pick up a free course,books & presntations now.</em></p>
+          <div>
+          <div>
+          <Button href='' color="primary">Join the Academy </Button>
+         </div>
+          </div>
         </div>
 
         {/* Mapping through the data array and passing course details to CourseCard */}
