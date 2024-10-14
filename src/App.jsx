@@ -4,6 +4,7 @@ import CourseCard from "./components/Card";
 import { Analytics } from "@vercel/analytics/react";
 import data from './data';
 import { Button } from "reactstrap";
+import PopoverCard from "./components/Popover";
 function App() {
   return (
     <>
@@ -18,6 +19,7 @@ function App() {
          </div>
           </div>
         </div>
+        <PopoverCard />
 
         {/* Mapping through the data array and passing course details to CourseCard */}
         <div className="cardsContainer">

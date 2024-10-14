@@ -332,7 +332,9 @@ height: 20px;
    
 }
 
-
+.popovercard{
+  border:1px solid #0d6efd;
+}
 
 
 .header1{
