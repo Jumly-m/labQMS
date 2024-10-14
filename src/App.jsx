@@ -11,9 +11,9 @@ function App() {
       <div className="homepage">
         <div className="intro-text">
           <h1 className="header1">MEDICAL LAB QMS</h1>
-          <p><em>Do you want to be an expert in Medical Laboratory? Pick up a free course,books & presntations now.</em></p>
+          <p><em>Do you want to be an expert in Medical Laboratory? Pick up a free course,books & presentations now.</em></p>
           <div>
-          <div>
+          <div className="communitybtnContainer">
           <Button href='' color="primary">Join the Academy </Button>
          </div>
           </div>
