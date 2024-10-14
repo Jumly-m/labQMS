@@ -38,7 +38,7 @@ function Header(props) {
               </NavLink>
             </NavItem>
             <NavItem className='search-container'>       
-              <input type="text" placeholder="Search" className="mr-sm-2 search" />
+              <input type="text"  placeholder="search" className="mr-sm-2 searchbox" />
             </NavItem>
           </Nav>
         </Collapse>

@@ -29,7 +29,7 @@ const PopoverCard = () => {
           <button style={closeButtonStyle} onClick={closePopover}>X</button>
           <h4>MEDICAL LAB QMS BUNDLE!</h4>
           <p>Get LabQMS Notes and materials for free!</p>
-          <Button block="True" href="href='https://ko-fi.com/s/df313eb6d3'" color='primary'>Get Now</Button>
+          <Button block="True" href='https://ko-fi.com/s/df313eb6d3' color='primary'>Get Now</Button>
         </div>
       )}
     </>

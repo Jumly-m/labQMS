@@ -15,7 +15,7 @@ function App() {
           <p><em>Do you want to be an expert in Medical Laboratory? Pick up a free course,books & presentations now.</em></p>
           <div>
           <div className="communitybtnContainer">
-          <Button href='' color="primary">Join Lab Academy </Button>
+          <Button href='https://whatsapp.com/channel/0029VaPXm9O5K3zYHrwpaa3E' color="primary">Join Lab Academy </Button>
          </div>
           </div>
         </div>
