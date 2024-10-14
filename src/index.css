@@ -5,6 +5,7 @@
   left: 0; /* Aligns it to the left */
   z-index: 1000; /* Ensures the header stays above other content */
   background-color: #f0f8ff; /* Ensures the header has a background (optional) */
+  margin-bottom: 50px !important;
  
 }
 .logo{
@@ -177,6 +178,10 @@ width: 100% !important;
       text-align:left !important;
       margin-left: 8px;
     }
+    .logoimg{
+      width: 80px;
+      height: 80px;
+    }
 }
 
 /* Small screens - 1 card per row */
@@ -340,6 +345,7 @@ height: 20px;
 .header1{
   margin-bottom: 8px;
   color: #3e5480;
+  margin-top: 30px !important;
  
 }
 
