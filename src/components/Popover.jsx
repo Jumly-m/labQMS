@@ -27,7 +27,7 @@ const PopoverCard = () => {
       {showPopover && (
         <div className='popovercard' style={popoverStyle}>
           <button style={closeButtonStyle} onClick={closePopover}>X</button>
-          <h4>LABQMS SURVEY!</h4>
+          <h4>LABQMS SURVEY! 🔥🔥</h4>
           <p>Hello Labqms team ,take 2 minutes to suggest and make success of our community!</p>
           <Button block="True" href='https://forms.office.com/r/VRa3jN7G3k' color='primary'>Start Now</Button>
         </div>
