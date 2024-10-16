@@ -5,6 +5,7 @@ import { Analytics } from "@vercel/analytics/react";
 import data from './data';
 import { Button } from "reactstrap";
 import PopoverCard from "./components/Popover";
+import PopoverOne from "./components/Popover1";
 function App() {
   return (
     <>
@@ -34,6 +35,7 @@ function App() {
               link={course.link}        // Link for the course
             />
           ))}
+          <PopoverOne />
         </div>
       </div>
       <Footer />
