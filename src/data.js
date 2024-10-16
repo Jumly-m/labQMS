@@ -29,21 +29,13 @@ const data = [
   {
     id: 4,
     topic: "Hematology",
-    image: "lab2.png",
-    title: "Advanced Hematology Techniques",
-    subtitle: "Learn the latest methods in hematology diagnostics",
-    description: "This course covers advanced hematology methods, including diagnostics and blood transfusion techniques.",
+    image: "hematology.png",
+    title: "Comprehensive Hematology Notes Bundle",
+    subtitle: "Essential Insights and Practical Knowledge for Medical Laboratory Professionals",
+    description: " bundle, covering Hemostasis, RBC Morphology, Classification of Anemia, Bone Marrow Examination, and an interactive Q&A section. Perfect for medical laboratory students and professionals looking to enhance their understanding of hematology.",
     link: "https://ko-fi.com/labqms/shop"
   },
-  {
-    id: 5,
-    topic: "Hematology",
-    image: "iqc.png",
-    title: "Advanced Hematology Techniques",
-    subtitle: "Learn the latest methods in hematology diagnostics",
-    description: "This course covers advanced hematology methods, including diagnostics and blood transfusion techniques.",
-    link: "https://ko-fi.com/labqms/shop"
-  },
+  
 ];
 
 export default data;
