@@ -186,8 +186,8 @@ width: 100% !important;
 /* Small screens - 1 card per row */
 @media (max-width: 768px) {
   .logoimg{
-    width: 70px;
-    height: 70px;
+    width:80px;
+    height:80px;
   }
   .navlink{
     color:#fff !important;
