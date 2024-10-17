@@ -19,7 +19,7 @@ function Header(props) {
     <div className='Header'>
       <Navbar color="faded" light expand='lg'>
         <NavbarBrand href="/" className="me-auto logo">
-          <img className='logoimg' src='logo3.png ' alt='LabQMS'/>
+          <img className='logoimg' src='logo5.png ' alt='LabQMS'/>
         </NavbarBrand>
         <NavbarToggler onClick={toggleNavbar} className="me-2" />
         <Collapse isOpen={!collapsed} navbar>
