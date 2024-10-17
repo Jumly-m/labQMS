@@ -395,13 +395,13 @@ margin-left: none;
   width: 100%;
 }
 .navbar-toggler-icon{
-  background-color: #0d6efd !important;
+  background-color: #fff !important;
   border:none !important;
   text-decoration: none !important;
   color: #0d6efd !important;
 }
 .navbar-toggler{
-  background-color: #0d6efd !important;
+  background-color: #fff !important;
   border:none !important;
   color: #0d6efd !important;
   text-decoration: none !important;
