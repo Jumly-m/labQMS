@@ -35,7 +35,7 @@ function App() {
               link={course.link}        // Link for the course
             />
           ))}
-          <PopoverOne />
+   
         </div>
       </div>
       <Footer />

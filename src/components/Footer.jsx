@@ -11,14 +11,7 @@ const Footer = () => {
         </div>
         <div className="subscribe-form">
         <div className="subscribeform">
-        <Input
-          id="exampleEmail"
-          name="email"
-          placeholder="Enter Email address"
-          type="text"
-          className="subscribeInput"
-        />
-        <Button className="subscribe-btn" color="primary">Subscribe</Button>
+        <Button  href="https://c40b38ed.sibforms.com/serve/MUIFABwzFbdDovt118p7SdI5cI3ZnXvVoEFrMPtVxlJnBU5sGW7-uagUK1MvZnb35m9bZqHhwcvsmOf5f47HmB-w5JjmXroVfyDRokXbhnJWuMcuj60XzekLJ20rJ8Qs-B7cK-j9VRjo2QH-EsJdVzc3T4avqZOQYWpAkDysYxhqIn8w9_6cQTsqF81CIZuCvth2RSDgLMGrdZB3" className="subscribe-btn" color="primary">Subscribe Now</Button>
         </div>
       <p>By subscribing you agree to the <a href="">Terms of Use</a> and <a href="">Privacy Policy</a></p>
         </div>
