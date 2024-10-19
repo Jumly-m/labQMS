@@ -5,12 +5,30 @@ import { Analytics } from "@vercel/analytics/react";
 import data from './data';
 import { Button } from "reactstrap";
 import PopoverCard from "./components/Popover";
-import Subscribe from "./components/subscribe";
+import { Helmet } from 'react-helmet';
+
 function App() {
   return (
     <>
       <Header />
       <div className="homepage">
+      <Helmet>
+        <title>LabQMS</title>
+        <meta name="description" content="become expert in medical laboratory through Labqms materials,presentations and free courses" />
+        <link rel="canonical" href="https://labqms.online" />
+        <meta name="keywords" content="ISO 15189, medical lab, haematology, lab qms,quality indicators,clinical research" />
+        <script type="application/ld+json">
+          {`
+            {
+              "@context": "https://labqms.online",
+              "@type": "labqms",
+              "url": "https://labqms.online",
+              "name": "Lab qms ",
+              "description": "become expert in medical laboratory through Labqms materials,presentations and free courses"
+            }
+          `}
+        </script>
+      </Helmet>
         <div className="intro-text">
           <h1 className="header1">MEDICAL LAB QMS</h1>
           <p><em>Do you want to be an expert in Medical Laboratory? Pick up a free course,books & presentations now.</em></p>
