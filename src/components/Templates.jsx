@@ -9,7 +9,7 @@ const Templates = () => {
       <Header />
       <div className="free-templates-container">
         <div className="template-sectionone">
-          <h1 className="header1">Free Templates</h1>
+          <h1 className="header1">Download Free Templates</h1>
         </div>
         <div className="templatesCards"> {/* This wraps your cards */}
           {templateData.map(template => (

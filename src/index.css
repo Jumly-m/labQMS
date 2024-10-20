@@ -420,9 +420,8 @@ margin-left: none;
   justify-content: center;
   height: 100vh; /* Full viewport height */
   text-align: center;
-  background-color: #f8f9fa;
-  margin-top:130px;
-  margin-bottom: 130px;
+  margin-top:100px;
+  margin-bottom: 110px;
 }
 
 .template-sectionone{
@@ -447,6 +446,7 @@ margin-left: none;
   padding: 5px; /* Padding inside each card */
   text-align: center; /* Center text within the card */
   transition: transform 0.3s, box-shadow 0.3s; /* Animation for hover effect */
+  padding-top: 5px !important;
 }
 
 .card a {
@@ -466,8 +466,8 @@ margin-left: none;
 }
 .badge {
   position: absolute; /* Positioning it absolutely */
-  top: 10px; /* Position it 10px from the top */
-  right: 10px; /* Position it 10px from the right */
+  top: -2px; /* Position it 10px from the top */
+  right: -2px; /* Position it 10px from the right */
   background-color: #0d6efd; /* Bootstrap primary color */
   color: white;
   padding: 5px 10px;
