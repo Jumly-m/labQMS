@@ -191,7 +191,7 @@ width: 100% !important;
   height: 100vh; /* Full viewport height */
   text-align: center;
   background-color: #f8f9fa;
-  margin-top: 120px;
+  margin-top: 160px;
 }
 
 .template-sectionone{
@@ -663,3 +663,5 @@ margin-left: none;
 .cardButton:hover{
 color:#fff !important;
 }
+
+

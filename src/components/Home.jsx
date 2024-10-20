@@ -50,7 +50,8 @@ const Home = () => {
               topic={course.topic}  // Subtitle of the course
               cardText={course.description}   // Course description text
               buttonText="Take Course"  // Static button text
-              link={course.link}        // Link for the course
+              link={course.link}    
+              isNew={true}    // Link for the course
             />
           ))}
     
