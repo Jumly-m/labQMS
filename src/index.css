@@ -421,13 +421,13 @@ margin-left: none;
   height: 100vh; /* Full viewport height */
   text-align: center;
   margin-top:100px;
-  margin-bottom: 110px;
+  margin-bottom: 160px;
 }
 
 .template-sectionone{
   display:grid;
   width: 100%;
-  margin-top: 50px;
+  margin-top: 180px;
 }
 .templatesCards {
   width: 100%; /* Full width */

@@ -29,9 +29,7 @@ function Header(props) {
              <Link to="/"><NavLink className='navlink'>Free Course</NavLink></Link> 
             </NavItem>
             <NavItem>
-              <NavLink className='navlink' href="#">
-                Books
-              </NavLink>
+             <Link to="/templates"><NavLink className='navlink' href="#">Books</NavLink></Link> 
             </NavItem>
             <NavItem>
             <Link to="/templates"><NavLink className='navlink'>Templates </NavLink></Link>  
