@@ -2,7 +2,7 @@ const templateData = [
     {
       id: 1,
       title: "Quality control statistics calculator",
-      document:'documents/qc-calculator.pdf',
+      document:'Documents/qc-calculator.pdf',
       keyword:'qc,quality control,qc in medical lab',
       flag:'New'
       
