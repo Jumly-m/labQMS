@@ -181,9 +181,83 @@ width: 100% !important;
       width: 100px;
       height: 100px;
     }
+
+    /* TEMPLATES SECTION   */
+.free-templates-container{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh; /* Full viewport height */
+  text-align: center;
+  background-color: #f8f9fa;
+  margin-top: 120px;
 }
 
-/* Small screens - 1 card per row */
+.template-sectionone{
+  display:grid;
+  width: 100%;
+  margin-top: 100px;
+}
+.templatesCards {
+  width: 100%; /* Full width */
+  padding: 10px; /* Padding around the grid */
+  display: grid; /* Use grid layout */
+  grid-template-columns: 1fr 1fr 1fr; /* Three cards per row */
+  gap: 20px; /* Space between grid items */
+  grid-template-rows: repeat(5, 1fr); /* Define rows if needed */
+  margin-top: 20px;
+}
+
+.card {
+  background-color: #ffffff; /* White background for cards */
+  border-radius: 4px; /* Rounded corners */
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+  padding: 20px; /* Padding inside each card */
+  text-align: center; /* Center text within the card */
+  transition: transform 0.3s, box-shadow 0.3s; /* Animation for hover effect */
+}
+
+.card a {
+  text-decoration: none; /* Remove underline from links */
+  color: #007bff !important; /* Link color */
+  font-weight: bold; /* Bold text */
+  font-size: 1.1em; /* Slightly larger text */
+  cursor: pointer;
+ 
+}
+.card a:hover{
+ color: #007bff; /* Link color */ ;
+}
+
+.card:hover {
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2); /* Darker shadow on hover */
+}
+.badge {
+  position: absolute; /* Positioning it absolutely */
+  top: 10px; /* Position it 10px from the top */
+  right: 10px; /* Position it 10px from the right */
+  background-color: #0d6efd; /* Bootstrap primary color */
+  color: white;
+  padding: 5px 10px;
+  border-radius: 12px;
+  font-size: 0.8em; /* Slightly smaller font for the badge */
+}
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+/* SMALL SCREENS  - 1 card per row */
 @media (max-width: 768px) {
   .logoimg{
     width:80px;
@@ -337,6 +411,70 @@ margin-left: none;
       text-align:left !important;
       margin-left: 8px;
     }
+
+    /* TEMPLATES SECTION   */
+.free-templates-container{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh; /* Full viewport height */
+  text-align: center;
+  background-color: #f8f9fa;
+  margin-top:130px;
+  margin-bottom: 130px;
+}
+
+.template-sectionone{
+  display:grid;
+  width: 100%;
+  margin-top: 50px;
+}
+.templatesCards {
+  width: 100%; /* Full width */
+  padding:5px; /* Padding around the grid */
+  display: grid; /* Use grid layout */
+  grid-template-columns: 1fr 1fr; /* Three cards per row */
+  gap: 10px; /* Space between grid items */
+  grid-template-rows: repeat(5, 1fr); /* Define rows if needed */
+  margin-top: 10px;
+}
+
+.card {
+  background-color: #ffffff; /* White background for cards */
+  border-radius: 4px; /* Rounded corners */
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+  padding: 10px; /* Padding inside each card */
+  text-align: center; /* Center text within the card */
+  transition: transform 0.3s, box-shadow 0.3s; /* Animation for hover effect */
+}
+
+.card a {
+  text-decoration: none; /* Remove underline from links */
+  color: #007bff !important; /* Link color */
+  font-weight: bold; /* Bold text */
+  font-size: 1.1em; /* Slightly larger text */
+  cursor: pointer;
+ 
+}
+.card a:hover{
+ color: #007bff; /* Link color */ ;
+}
+
+.card:hover {
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2); /* Darker shadow on hover */
+}
+.badge {
+  position: absolute; /* Positioning it absolutely */
+  top: 10px; /* Position it 10px from the top */
+  right: 10px; /* Position it 10px from the right */
+  background-color: #0d6efd; /* Bootstrap primary color */
+  color: white;
+  padding: 5px 10px;
+  border-radius: 12px;
+  font-size: 0.8em; /* Slightly smaller font for the badge */
+}
+
    
 }
 
@@ -473,3 +611,55 @@ margin-left: none;
   color: red; /* Change color on hover */
 }
 
+
+
+/*NOT FOUND CSS START HERE  */
+
+/* NotFound.css */
+
+.not-found-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh; /* Full viewport height */
+  text-align: center;
+  background-color: #f8f9fa;
+  margin-top: 120px;
+}
+
+.not-found-container h1 {
+  font-size: 3rem;
+  color: #dc3545; /* Bootstrap danger color */
+}
+
+.not-found-container p {
+  font-size: 1.2rem;
+  margin-bottom: 20px;
+}
+
+.not-found-container img {
+  width: 300px; /* Adjust the image size */
+  margin-bottom: 20px;
+}
+
+.home-button {
+  padding: 10px 20px;
+  font-size: 1rem;
+  color: white;
+  background-color: #007bff; /* Bootstrap primary color */
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.home-button:hover {
+  background-color: #0056b3; /* Darker shade of blue on hover */
+}
+
+
+/* NOT FOUND CSS ENDS HERE */
+.cardButton:hover{
+color:#fff !important;
+}

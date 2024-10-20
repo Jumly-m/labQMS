@@ -13,7 +13,7 @@ const CourseCard = (props) => {
         <CardText>
          {props.cardText}
         </CardText>
-        <Button href={props.link} color='primary'className='cardButton' outline = 'True' block='True'>{props.buttonText}</Button>
+        <Button href={props.link} color='primary'className='cardButton' outline = {true} block={true}>{props.buttonText}</Button>
       </CardBody>
     </Card>
   );

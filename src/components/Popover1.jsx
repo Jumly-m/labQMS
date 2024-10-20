@@ -29,7 +29,7 @@ const PopoverOne = () => {
           <button style={closeButtonStyle} onClick={closePopover}>X</button>
           <h4>JOIN OUR COMMUNITY CHANNEL 🔥🔥</h4>
           <p>Do you want to be the firs to get all notification and be the first to get all offers,if yes? </p>
-          <Button block="True" href='https://whatsapp.com/channel/0029VaPXm9O5K3zYHrwpaa3E' color='primary'>JOIN NOW</Button>
+          <Button block={true} href='https://whatsapp.com/channel/0029VaPXm9O5K3zYHrwpaa3E' color='primary'>JOIN NOW</Button>
         </div>
       )}
     </>

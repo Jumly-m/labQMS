@@ -9,6 +9,7 @@ import {
   NavLink,
   
 } from 'reactstrap';
+import { Link } from 'react-router-dom';
 
 function Header(props) {
   const [collapsed, setCollapsed] = useState(true);
@@ -25,7 +26,7 @@ function Header(props) {
         <Collapse isOpen={!collapsed} navbar>
           <Nav navbar className='navbar'>
             <NavItem>
-              <NavLink className='navlink' href="#">Free Course</NavLink>
+             <Link to="/"><NavLink className='navlink'>Free Course</NavLink></Link> 
             </NavItem>
             <NavItem>
               <NavLink className='navlink' href="#">
@@ -33,9 +34,7 @@ function Header(props) {
               </NavLink>
             </NavItem>
             <NavItem>
-              <NavLink className='navlink' href="#">
-                Templates
-              </NavLink>
+            <Link to="/templates"><NavLink className='navlink'>Templates </NavLink></Link>  
             </NavItem>
             <NavItem className='search-container'>       
               <input type="text"  placeholder="search" className="mr-sm-2 searchbox" />

@@ -1,64 +1,23 @@
-import Header from "./components/Header";
-import Footer from "./components/Footer";
-import CourseCard from "./components/Card";
-import { Analytics } from "@vercel/analytics/react";
-import data from './data';
-import { Button } from "reactstrap";
-import PopoverCard from "./components/Popover";
-import { Helmet } from 'react-helmet';
+
+import { BrowserRouter, Routes, Route } from 'react-router-dom';
+import Books from './components/Books';
+import NotFound from "./components/NotFound";
+import Home from "./components/Home";
+import Templates from './components/Templates';
 
 function App() {
   return (
+    <BrowserRouter>
+    <Routes>
+      <Route path="/books" element={<Books />} />
+      <Route path="/" element={<Home />} />
+      <Route path="/templates" element={<Templates />} />
+          {/* This route will catch all unmatched routes */}
+          <Route path="*" element={<NotFound />} />
+    </Routes>
     <>
-      <Header />
-      <div className="homepage">
-      <Helmet>
-        <title>LabQMS</title>
-        <meta name="description" content="become expert in medical laboratory through Labqms materials,presentations and free courses" />
-        <link rel="canonical" href="https://labqms.online" />
-        <meta name="keywords" content="ISO 15189, medical lab, haematology, lab qms,quality indicators,clinical research" />
-        <script type="application/ld+json">
-          {`
-            {
-              "@context": "https://labqms.online",
-              "@type": "labqms",
-              "url": "https://labqms.online",
-              "name": "Lab qms ",
-              "description": "become expert in medical laboratory through Labqms materials,presentations and free courses"
-            }
-          `}
-        </script>
-      </Helmet>
-        <div className="intro-text">
-          <h1 className="header1">MEDICAL LAB QMS</h1>
-          <p><em>Do you want to be an expert in Medical Laboratory? Pick up a free course,books & presentations now.</em></p>
-          <div>
-          <div className="communitybtnContainer">
-          <Button href='https://whatsapp.com/channel/0029VaPXm9O5K3zYHrwpaa3E' color="primary">Join Lab Academy </Button>
-         </div>
-          </div>
-        </div>
-        <PopoverCard />
-
-        {/* Mapping through the data array and passing course details to CourseCard */}
-        <div className="cardsContainer">
-          {data.map((course) => (
-            <CourseCard
-              key={course.id}    
-              title ={course.title}      // Ensures each CourseCard has a unique key
-              src={course.image}        // Image URL for the course
-              topic={course.topic}  // Subtitle of the course
-              cardText={course.description}   // Course description text
-              buttonText="Take Course"  // Static button text
-              link={course.link}        // Link for the course
-            />
-          ))}
-    
-        </div>
-      </div>
-      <Footer />
-      <Analytics />
     </>
+    </BrowserRouter>
   );
 }
 
