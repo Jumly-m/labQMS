@@ -10,48 +10,48 @@ const templateData = [
    
     {
         id: 2,
-        title: "Quality Management",
-        document:'',
-        keyword:'qc,quality control,qc in medical lab',
+        title: "Iso 15189:2022 Training-CLSI",
+        document:'Documents/CLSI ISO 15189 2022 TRAINING.pdf',
+        keyword:'iso 15189:2022,CLSI,QMS in medical lab',
         flag:'New'
         
       },
       {
         id: 3,
-        title: "Quality Management",
-        document:'',
+        title: "ISO 22367 -Risk Management for clinical Laboratory",
+        document:'Documents/ISO 22367 RISK MANAGEMENT FOR MEDICAL LABORATORIES.pdf',
         keyword:'qc,quality control,qc in medical lab',
         flag:'New'
         
       },
       {
         id: 4,
-        title: "Quality Management",
-        document:'',
+        title: "ISO 15189:2022 New ISO",
+        document:'Documents/ISO 1518922 FINAL.pdf',
         keyword:'qc,quality control,qc in medical lab',
         flag:'New'
         
       },
       {
         id: 5,
-        title: "Quality Management",
-        document:'',
+        title: "Risk Assesment Made easy",
+        document:'Documents/risk assessment.pdf',
         keyword:'qc,quality control,qc in medical lab',
         flag:'New'
         
       },
       {
         id: 6,
-        title: "Quality Management",
-        document:'',
+        title: "Quality control in medical laboratory",
+        document:'Documents/qualitycontrolsystem.pdf',
         keyword:'qc,quality control,qc in medical lab',
         flag:'New'
         
       },
       {
         id: 7,
-        title: "Quality Management",
-        document:'',
+        title: "Control temperature in Clinical Laboratory",
+        document:'Documents/temperature.pdf',
         keyword:'qc,quality control,qc in medical lab',
         flag:'New'
         

@@ -35,6 +35,15 @@ const data = [
     description: " bundle, covering Hemostasis, RBC Morphology, Classification of Anemia, Bone Marrow Examination, and an interactive Q&A section. Perfect for medical laboratory students and professionals looking to enhance their understanding of hematology.",
     link: "https://ko-fi.com/labqms/shop"
   },
+  {
+  id: 5,
+  topic: "ISO 15189:2022 Training",
+  image: "slipta.png",
+  title: "Comprehensive training for New ISO 15189:2022",
+  subtitle: "become expert in Laboratory QMS through this SLIPTA online course",
+  description: " Gain comprehensive insights into the updated ISO 15189:2022 standards, focusing on implementation strategies and quality management practices for medical laboratories.",
+  link: "https://www.slmta.org/learning/slmta-3"
+},
   
 ];
 
